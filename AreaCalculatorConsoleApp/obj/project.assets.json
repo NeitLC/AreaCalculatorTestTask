@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "AreaCalculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AreaCalculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AreaCalculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AreaCalculator/1.0.0": {
+      "type": "project",
+      "path": "../AreaCalculator/AreaCalculator.csproj",
+      "msbuildProject": "../AreaCalculator/AreaCalculator.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "AreaCalculator >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dima\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\bin\\C#\\AreaCalculator\\AreaCalculatorConsoleApp\\AreaCalculatorConsoleApp.csproj",
+      "projectName": "AreaCalculatorConsoleApp",
+      "projectPath": "E:\\bin\\C#\\AreaCalculator\\AreaCalculatorConsoleApp\\AreaCalculatorConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+      "outputPath": "E:\\bin\\C#\\AreaCalculator\\AreaCalculatorConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
+      "configFilePaths": [
+        "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "E:\\bin\\C#\\AreaCalculator\\AreaCalculator\\AreaCalculator.csproj": {
+              "projectPath": "E:\\bin\\C#\\AreaCalculator\\AreaCalculator\\AreaCalculator.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      }
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
